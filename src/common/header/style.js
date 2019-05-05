@@ -41,6 +41,7 @@ export const NavItem = styled.div`
     }
 `;
 export const SearchWrapper = styled.div`
+    
     position:relative;
     float:left;
     .slide-enter{
@@ -91,6 +92,7 @@ export const NavSearch = styled.input.attrs({
     }
 `;
 export const SearchInfo = styled.div`
+    background:white;
     position:absolute;
     left:0;
     top:56px;
